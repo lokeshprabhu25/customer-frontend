@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
 
-const USER_API = "http://localhost:8001";
-const ORDER_API = "http://localhost:8002";
+const USER_API = "http://3.26.78.110:8001";
+const ORDER_API = "http://3.26.78.110:8002";
 
 function App() {
   const [user, setUser] = useState(null);
